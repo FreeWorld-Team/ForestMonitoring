@@ -6076,16 +6076,16 @@ if(jQuery('#chartdiv').length){
         Highcharts.chart('high-basicline-chart', {
 
         title: {
-            text: 'Solar Employment Growth by Sector, 2010-2016'
+            text: ''
         },
 
         subtitle: {
-            text: 'Source: thesolarfoundation.com'
+            text: ''
         },
 
         yAxis: {
             title: {
-                text: 'Number of Employees'
+                text: ''
             }
         },
         legend: {
@@ -6104,23 +6104,19 @@ if(jQuery('#chartdiv').length){
         },
 
         series: [{
-            name: 'Installation',
+            name: 'Taux de CO2',
             data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175],
             color: '#ff4545'
         }, {
-            name: 'Manufacturing',
+            name: 'Taux de plantation',
             data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434],
             color: '#1ee2ac'
         }, {
-            name: 'Sales & Distribution',
+            name: 'Perte forrestiare',
             data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387],
             color: '#ff7750'
         }, {
-            name: 'Project Development',
-            data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227],
-            color: '#00d0ff'
-        }, {
-            name: 'Other',
+            name: 'Autres gaz',
             data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111],
             color: '#ffdd31'
         }],
@@ -6152,12 +6148,10 @@ if(jQuery('#chartdiv').length){
             description: 'Image description: An area chart compares the nuclear stockpiles of the USA and the USSR/Russia between 1945 and 2017. The number of nuclear weapons is plotted on the Y-axis and the years on the X-axis. The chart is interactive, and the year-on-year stockpile levels can be traced for each country. The US has a stockpile of 6 nuclear weapons at the dawn of the nuclear age in 1945. This number has gradually increased to 369 by 1950 when the USSR enters the arms race with 6 weapons. At this point, the US starts to rapidly build its stockpile culminating in 32,040 warheads by 1966 compared to the USSR’s 7,089. From this peak in 1966, the US stockpile gradually decreases as the USSR’s stockpile expands. By 1978 the USSR has closed the nuclear gap at 25,393. The USSR stockpile continues to grow until it reaches a peak of 45,000 in 1986 compared to the US arsenal of 24,401. From 1986, the nuclear stockpiles of both countries start to fall. By 2000, the numbers have fallen to 10,577 and 21,000 for the US and Russia, respectively. The decreases continue until 2017 at which point the US holds 4,018 weapons compared to Russia’s 4,500.'
         },
         title: {
-            text: 'US and USSR nuclear stockpiles'
+            text: ''
         },
         subtitle: {
-            text: 'Sources: <a href="https://thebulletin.org/2006/july/global-nuclear-stockpiles-1945-2006">' +
-                'thebulletin.org</a> &amp; <a href="https://www.armscontrol.org/factsheets/Nuclearweaponswhohaswhat">' +
-                'armscontrol.org</a>'
+            text: ''
         },
         xAxis: {
             allowDecimals: false,
@@ -6172,7 +6166,7 @@ if(jQuery('#chartdiv').length){
         },
         yAxis: {
             title: {
-                text: 'Nuclear weapon states'
+                text: ''
             },
             labels: {
                 formatter: function () {
@@ -6181,7 +6175,7 @@ if(jQuery('#chartdiv').length){
             }
         },
         tooltip: {
-            pointFormat: '{series.name} had stockpiled <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
+            pointFormat: '{series.name} '
         },
         plotOptions: {
             area: {
@@ -6199,7 +6193,7 @@ if(jQuery('#chartdiv').length){
             }
         },
         series: [{
-            name: 'USA',
+            name: 'Densité de la zone',
             data: [
                 null, null, null, null, null, 6, 11, 32, 110, 235,
                 369, 640, 1005, 1436, 2063, 3057, 4618, 6444, 9822, 15468,
@@ -6212,7 +6206,7 @@ if(jQuery('#chartdiv').length){
             ],
             color: '#ff4545'
         }, {
-            name: 'USSR/Russia',
+            name: 'Densité de la zone',
             data: [null, null, null, null, null, null, null, null, null, null,
                 5, 25, 50, 120, 150, 200, 426, 660, 869, 1060,
                 1605, 2471, 3322, 4238, 5221, 6129, 7089, 8339, 9399, 10538,
@@ -6552,7 +6546,7 @@ if(jQuery('#chartdiv').length){
         },
 
         title: {
-            text: 'Live random data'
+            text: ''
         },
 
         accessibility: {
@@ -6575,7 +6569,7 @@ if(jQuery('#chartdiv').length){
 
         yAxis: {
             title: {
-                text: 'Value'
+                text: ''
             },
             plotLines: [{
                 value: 0,
@@ -6598,7 +6592,7 @@ if(jQuery('#chartdiv').length){
         },
 
         series: [{
-            name: 'Random data',
+            name: 'Evoulution en temps réel',
             color: '#ff4545',
             data: (function () {
                 // generate an array of random data
